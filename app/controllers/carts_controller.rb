@@ -8,7 +8,7 @@ class CartsController < ApplicationController
   end
 
   def show
-    @items = @cart.retrieve_items
+    @items = @cart.all
   end
 
   def destroy
