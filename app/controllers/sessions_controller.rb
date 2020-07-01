@@ -1,5 +1,6 @@
 class SessionsController < ApplicationController
   def new
+    variable = 'who?'
   end
 
   def create
